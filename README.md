@@ -2,6 +2,8 @@
 
 **Smart Hands** is a mobile application built with **React Native**, designed to empower and support the deaf and hard-of-hearing community. The app provides a wide range of essential services, educational tools, and social interaction features — all accessible and inclusive.
 
+![Smart Hands Banner](/client/assets/smarthandscover.png)
+
 ---
 
 ## 🧠 Why Smart Hands?
@@ -21,12 +23,34 @@ Find and connect with:
 
 Includes map integration to locate nearby services.
 
----
 
+![Services image](/client/assets/services-smart-hands.jpg)
+
+
+
+
+---
 ### 2. 🎓 Courses
-- Educational content in **Sign Language**
-- Learn at your own pace
-- Categorized by subject and skill level
+
+<table>
+  <tr>
+    <td width="200">
+      <img src="https://i.imgur.com/E7Z1kBh.png" alt="Smart Hands Banner" width="180">
+    </td>
+    <td>
+        </p>
+        - Educational content in **Sign Language**
+        </p>
+        <p>
+        - Learn at your own pace
+        </p>
+        <p>
+        - Categorized by subject and skill level 
+        </p>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
@@ -69,11 +93,9 @@ Communicate in **3 flexible modes**:
 ## 🚀 Tech Stack
 
 - **Frontend:** React Native
-- **State Management:** (Optional – add Redux, Zustand, etc. if used)
-- **Backend:** (Optional – if you have a backend, mention Node.js, Firebase, etc.)
-- **Map Integration:** (e.g., Google Maps API)
-- **Chat System:** Real-time with (e.g., Socket.IO or Firebase)
-- **Avatar Translator:** (Mention the animation tech used if any)
+- **State Management:** Redux
+- **Map Integration:** Google Maps API
+- **Chat System:** Real-time with Socket.IO
 
 ---
 
@@ -81,16 +103,16 @@ Communicate in **3 flexible modes**:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/smart-hands.git
+git clone https://github.com/oussemacherif/Smart-Hands.git
 
 # Navigate to project folder
-cd smart-hands
+cd client
 
 # Install dependencies
 npm install
 
 # Run on Android
-npx react-native run-android
+expo start --android
 
 # Run on iOS (Mac only)
-npx react-native run-ios
+expo start --ios
